@@ -35,10 +35,6 @@ namespace UsermodeSharp
 
             Console.Title = "UsermodeSharp | Fortnite";
 
-
-            Util.ConsoleSuccess("Press any key once In lobby...");
-            Console.ReadKey();
-
             if (!IsMapped)
             {
                 if (!MemoryDriver.LoadDriver(@"MemoryDriver.sys"))
